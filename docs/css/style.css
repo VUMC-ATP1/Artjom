@@ -1,0 +1,65 @@
+* {
+    max-width: 100%;
+    margin: auto;
+}
+
+div {
+    border-radius: 5px;
+}
+
+#header {
+    height: 30px;
+    width: 100%;
+    background-color: lightskyblue;
+    position: fixed;
+    z-index: 1;
+}
+
+#footer {
+    height: 40px;
+    width: 100%;
+    background-color: lightskyblue;
+    position: relative;
+    clear: both;
+}
+
+#copyRight {
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.left-side {
+    height: auto;
+    width: 45px;
+    background-color: cornflowerblue;
+    float: left;
+    position: fixed;
+}
+
+.right-side {
+    height: auto;
+    width: 45px;
+    background-color: cornflowerblue;
+    float: right;
+    position: inherit;
+}
+
+.content {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 50px;
+    width: 75%;
+    height: 1000px;
+}
+
+p,
+li {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.paragraphStyle {
+    font-size: 25px;
+    font-style: bold;
+}
